@@ -8,4 +8,4 @@ class Solution:
             if difference in num_map:
                 return [num_map[difference], i]  # We found the pair!
 
-            num_map[num] = i  # Remember this number and where we saw it
+            num_map[num] = i  # Remember this number and where we saw it     
