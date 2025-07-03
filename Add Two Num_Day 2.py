@@ -2,7 +2,7 @@ class Solution(object):
     def addTwoNumbers(self, l1, l2):
         dummy = ListNode()
         current = dummy
-        carry = 0
+        carry = 0 
 
         while l1 or l2 or carry:   
             x = l1.val if l1 else 0
